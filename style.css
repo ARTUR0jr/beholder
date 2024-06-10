@@ -19,15 +19,23 @@ body {
     cursor: pointer;
   }
   
-  #mobile-nav {
+  
+  /* ... existing styles ... */
+
+#mobile-nav {
     display: none; /* Initially hide the navigation */
-    position: fixed; /* Fix the navigation to the viewport */
-    top: 0; /* Position at the top of the viewport */
-    left: 0; /* Position at the left of the viewport */
-    width: 100%; /* Occupy full width */
+    position: fixed; /* Fix to viewport */
+    top: 0; /* Position at top */
+    left: -100%; /* Initially off-screen to the left */
+    width: 250px; /* Set desired sidebar width */
     height: 100vh; /* Occupy full viewport height */
     background-color: #fff; /* Adjust background color as needed */
     padding: 20px;
+    transition: left 0.3s ease-in-out; /* Smooth transition for opening/closing */
+  }
+  
+  .show { /* Show class for opened sidebar */
+    left: 0; /* Slide the sidebar into view */
   }
   
   main {
