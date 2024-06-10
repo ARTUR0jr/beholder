@@ -1,1 +1,36 @@
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex; /* Arrange menu button and title horizontally */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  #menu-button {
+    background: none;
+    border: none;
+    font-size: 20px; /* Adjust font size as needed */
+    cursor: pointer;
+  }
+  
+  #mobile-nav {
+    display: none; /* Initially hide the navigation */
+    position: fixed; /* Fix the navigation to the viewport */
+    top: 0; /* Position at the top of the viewport */
+    left: 0; /* Position at the left of the viewport */
+    width: 100%; /* Occupy full width */
+    height: 100vh; /* Occupy full viewport height */
+    background-color: #fff; /* Adjust background color as needed */
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px; /* Add some padding to the main content */
+  }
+  
