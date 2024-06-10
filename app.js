@@ -16,13 +16,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyApP976cvWYa5v-SvV96v8q9k0PjTeJIWo",
+  apiKey: "",
   authDomain: "beholdertourism.firebaseapp.com",
   projectId: "beholdertourism",
   storageBucket: "beholdertourism.appspot.com",
-  messagingSenderId: "10916505577",
-  appId: "1:10916505577:web:e5fea54f3abc1aef9e0d78",
-  measurementId: "G-NSZPSJ9G1D"
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Initialize Firebase
